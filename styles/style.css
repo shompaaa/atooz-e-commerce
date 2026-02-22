@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: #e2e5e9;
+  height: 100vh;
+  max-width: 100%;
+}
+
+/* Common Styles */
+
+section {
+  margin: 24px 60px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.title-primary {
+  font-size: 22px;
+  color: white;
+}
+
+.primary-btn {
+  padding: 8px 20px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+.primary-btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  /* position: fixed; */
+}
+
+.header ul {
+  display: flex;
+  justify-content: end;
+  background-color: #a70000;
+  padding: 10px;
+}
+
+.header ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 40px;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header ion-icon {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 20px 80px;
+  margin-top: -15px;
+}
+
+.nav_bar ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav_bar ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.nav_bar a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: #f80028;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav .navbar_icon_button,
+.navbar_menu {
+  text-align: center;
+  margin: auto 5px;
+}
+
+.navbar_icon_button button {
+  background-color: #f80000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.navbar_icon_button ion-icon {
+  font-size: 30px;
+}
+.navbar_icon_button button {
+  font-size: 20px;
+}
+
+.category h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.coupon_card {
+  background-color: #070f2b;
+}
+
+.coupon_card h4,
+ion-icon {
+  color: #dc3545;
+}
+.coupon_card ion-icon {
+  font-size: 35px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.coupon_card p {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: auto 5px;
+}
+
+.coupon_card button {
+  background-color: #f80000;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* New Arrival Styles */
+.arrival-container,
+.topSelling-container {
+  display: flex;
+  padding: 24px 50px;
+  width: 100%;
+}
+
+.arrival-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+  align-items: center;
+  background-color: #e59866;
+  padding: 70px 24px;
+}
+
+.arrival-image-container,
+.topSelling-image-container {
+  display: flex;
+  width: 80%;
+}
+
+.arrival-images,
+.topSelling-images,
+.featured-images {
+  display: flex;
+  border: none;
+  box-shadow: 2px 2px 5px grey;
+  flex-direction: column;
+}
+.arrival-images img,
+.topSelling-images img,
+.featured-images img {
+  /* height: 250px; */
+  width: 260px;
+  height: 100%;
+}
+
+.arrival-images .image-content,
+.topSelling-images .image-content,
+.featured-images .image-content {
+  height: 25%;
+}
+
+.image-content {
+  color: #fff;
+  background-color: #a70000;
+  font-size: 12px;
+}
+.image-content h4 {
+  font-size: 16px;
+}
+
+.topSelling-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+  align-items: center;
+  background-color: #fa7070;
+  padding: 70px 24px;
+}
+
+.featured-image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.featured-container {
+  padding: 24px 10px;
+}
+.featured-container h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
