@@ -97,18 +97,21 @@ nav .navbar_icon_button,
   margin: auto 5px;
 }
 
-.navbar_icon_button button {
-  background-color: #f80000;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
-  margin-left: 20px;
-  font-size: 25px;
+.navbar_icon_button {
+  display: flex;
+  gap: 10px;
+
 }
 
-.navbar_icon_button ion-icon {
+.navbar_icon_button ion-icon, .navbar_icon_button button {
   font-size: 30px;
+  font-weight: bold;
+  background-color: #f80000;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+
 }
 .navbar_icon_button button {
   font-size: 20px;
