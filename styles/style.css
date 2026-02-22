@@ -5,8 +5,6 @@
 body {
   font-family: sans-serif;
   background-color: #e2e5e9;
-  height: 100vh;
-  max-width: 100%;
 }
 
 /* Common Styles */
@@ -21,6 +19,12 @@ section {
   color: white;
 }
 
+.title-secondary {
+  font-size: 19px;
+  font-weight: bold;
+  color: #000;
+}
+
 .primary-btn {
   padding: 8px 20px;
   border: none;
@@ -31,11 +35,6 @@ section {
 .primary-btn:hover {
   background-color: #000000;
   color: #fff;
-}
-
-header {
-  width: 100%;
-  /* position: fixed; */
 }
 
 .header ul {
@@ -115,12 +114,19 @@ nav .navbar_icon_button,
   font-size: 20px;
 }
 
+.banner {
+  margin-right: 0;
+}
+
+/* Category Styles */
+
 .category h2 {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
 }
 
+/* Coupon Card Styles */
 .coupon_card {
   background-color: #070f2b;
 }
@@ -151,7 +157,7 @@ ion-icon {
   font-weight: bold;
 }
 
-/* New Arrival Styles */
+/* New Arrival, Top Selling & Featured Product Styles */
 .arrival-container,
 .topSelling-container {
   display: flex;
@@ -186,7 +192,6 @@ ion-icon {
 .arrival-images img,
 .topSelling-images img,
 .featured-images img {
-  /* height: 250px; */
   width: 260px;
   height: 100%;
 }
@@ -223,10 +228,138 @@ ion-icon {
   width: 100%;
 }
 
-.featured-container {
+.featured-container,
+.company-container {
   padding: 24px 10px;
 }
-.featured-container h2 {
+.featured-container h2,
+.company-container h2 {
+  text-transform: uppercase;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #000;
+}
+
+/* Payment & Delivery Styles */
+.payment ion-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+/* Company Styles */
+.company-container img {
+  width: 250px;
+  height: 120px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* Contact Styles */
+.contact-section {
+  margin: 0 250px;
+  position: relative;
+  top: 30px;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 24px;
+}
+.contact-container h5 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact-container button {
+  border: none;
+  color: #fff;
+  background-color: #a70000;
+  padding: 8px 12px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.contact-container ion-icon {
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 6px;
+}
+.contact-container .btn {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #a70000;
+}
+
+.footer-info-container,
+.media-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 270px;
+  gap: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 250px;
+  height: 200px;
+  color: #fff;
+  padding: 10px;
+}
+
+.footer-content h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-content p,
+li {
+  font-size: 14px;
+}
+.footer-content ul li {
+  list-style: none;
+  margin-bottom: 8px;
+  position: relative;
+  right: 30px;
+}
+
+.footer hr {
+  border: 1px solid white;
+  margin: 0 40px;
+}
+
+.media-container {
+  padding: 30px;
+}
+
+.media-container small {
+  color: #fff;
+  font-size: 12px;
+}
+.media-container span {
+  color: #fff;
+}
+
+.media-container ion-icon {
+  font-size: 40px;
+  color: #fff;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
 }
