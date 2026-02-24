@@ -39,10 +39,12 @@ section {
   transition: 0.5s ease-in-out;
 }
 
+/* Top Navbar Styles */
+
 .header ul {
   display: flex;
   justify-content: end;
-  background-color: #a70000;
+  background-color: #1A237E;
   padding: 10px;
 }
 
@@ -64,6 +66,8 @@ header ion-icon {
   font-size: 20px;
   margin-right: 5px;
 }
+
+/* Navbar Styles */
 
 .nav_bar {
   display: flex;
@@ -88,9 +92,13 @@ header ion-icon {
 .nav_bar a {
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
-  color: #f80028;
+  color: #000;
   font-size: 20px;
   font-weight: bold;
+}
+
+.nav_bar a:hover{
+  color: #1A237E;
 }
 
 nav .navbar_icon_button,
@@ -105,30 +113,52 @@ nav .navbar_icon_button,
 
 }
 
-.navbar_icon_button ion-icon, .navbar_icon_button button {
+.navbar_icon_button ion-icon{
   font-size: 30px;
   font-weight: bold;
-  background-color: #f80000;
   padding: 10px 15px;
   border: none;
   border-radius: 8px;
-  color: #fff;
+  color: #000;
 
 }
-.navbar_icon_button button {
-  font-size: 20px;
+
+.navbar_icon_button ion-icon:hover{
+  color: #1A237E;
 }
 
-.banner {
-  margin-right: 0;
+
+.img-banner image{
+  width: 100%;
+  height: auto;
 }
 
 /* Category Styles */
 
-.category h2 {
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: bold;
+.category-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px 85px;
+}
+
+.category-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px #1A237E;
+}
+
+.category-content:hover{
+  background-color: #1A237E;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.category-content h4{
+  margin-top: 10px;
 }
 
 /* Coupon Card Styles */
@@ -380,3 +410,21 @@ li {
   display: flex;
   gap: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
