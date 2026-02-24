@@ -128,11 +128,6 @@ nav .navbar_icon_button,
 }
 
 
-.img-banner image{
-  width: 100%;
-  height: auto;
-}
-
 /* Category Styles */
 
 .category-container{
@@ -206,7 +201,7 @@ ion-icon {
   justify-content: center;
   gap: 35px;
   align-items: center;
-  background-color: #e59866;
+  background-color: #FD6602;
   padding: 70px 24px;
 }
 
@@ -239,7 +234,7 @@ ion-icon {
 
 .image-content {
   color: #fff;
-  background-color: #a70000;
+  background-color: #1A237E;
   font-size: 12px;
   padding: 3px;
 }
@@ -254,7 +249,7 @@ ion-icon {
   justify-content: center;
   gap: 35px;
   align-items: center;
-  background-color: #fa7070;
+  background-color: #ED4F0B;
   padding: 70px 24px;
 }
 
@@ -282,12 +277,15 @@ ion-icon {
 .payment ion-icon {
   font-size: 50px;
   margin-bottom: 10px;
+  color: #1A237E;
 }
 
 /* Company Styles */
 .company-container img {
   width: 250px;
-  height: 120px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px grey;
 }
 
 .company {
@@ -318,7 +316,7 @@ ion-icon {
 .contact-container button {
   border: none;
   color: #fff;
-  background-color: #a70000;
+  background-color: #1A237E;
   padding: 8px 12px;
   font-size: 20px;
   font-weight: bold;
@@ -334,10 +332,16 @@ ion-icon {
   justify-content: center;
   align-items: center;
 }
+.contact-container .btn:hover{
+  background-color: #ED4F0B;
+}
+.contact-container .btn .number{
+  color: #fff;
+}
 
 /* Footer Styles */
 .footer {
-  background-color: #a70000;
+  background-color: #1A237E;
 }
 
 .footer-info-container,
@@ -414,14 +418,73 @@ li {
 
 
 
+/* Featured Styles */
+
+.featured-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap:15px;
+ 
+}
+.featured h2{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.featured-content{
+  display: flex;
+  flex-direction: column;
+   background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.featured-description{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.price-tag{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.price-tag ion-icon,span{
+  font-size: 20px;
+  color: #ED4F0B;
+  font-weight: 800;
+}
+
+.rating ion-icon{
+  font-size: 15px;
+  color: gold;
+
+}
+
+.featured-content button{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #ED4F0B;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
+.featured-description h5{
+  font-size: 18px;
+  font-weight: 700;
+  color: #1A237E;
+}
 
 
-
-
-
-
-
-
+.featured-container img{
+    width: 100%;
+    height: auto;
+}
 
 
 
