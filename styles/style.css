@@ -7,7 +7,6 @@ body {
   background-color: #e2e5e9;
 }
 
-
 /* Common Styles */
 
 section {
@@ -158,12 +157,12 @@ nav .navbar_icon_button,
 
 /* Coupon Card Styles */
 .coupon_card {
-  background-color: #070f2b;
+  background-color: #1A237E;
 }
 
 .coupon_card h4,
 ion-icon {
-  color: #dc3545;
+  color: #FD6602;
 }
 .coupon_card ion-icon {
   font-size: 35px;
@@ -179,7 +178,7 @@ ion-icon {
 }
 
 .coupon_card button {
-  background-color: #f80000;
+  background-color: #FD6602;
   padding: 8px 15px;
   border: none;
   border-radius: 10px;
