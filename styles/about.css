@@ -1,0 +1,19 @@
+/* Red box */
+.red-box {
+  width: 60%;
+  height: 200px;
+  bottom: 0;
+  left: 10%;
+  z-index: 1;
+}
+
+/* Image */
+.main-img {
+  width: 60%;
+  z-index: 2;
+}
+
+.red-box {
+  bottom: -40px;
+  left: 5%;
+}

@@ -1,0 +1,21 @@
+.contact-info{
+    background: linear-gradient(rgba(0,0,0,0.5)), url('../assets/images/contact-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.contact-address{
+    font-size: 18px;
+}
+
+.contact-form{
+    height: 450px;
+}
+
+.contact-form input,textarea{
+    margin-bottom: 15px;
+    padding: 13px;
+    border: 1px solid rgb(160, 160, 160,0.3);
+    background: white;
+    border-radius: 5px;
+}
